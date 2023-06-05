@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="./script.js" defer></script>
+    <title>Calculadora de Contas</title>
+  </head>
+  <body>
+    <aside class="people">
+      <h1>Pessoas</h1>
+      <button class="btn addPerson" onclick="personModal()">+</button>
+    </aside>
+    <main class="products">
+      <h1>Produtos</h1>
+      <section class="product-list">
+        <button class="btn addProduct" onclick="productModal()">+</button>
+      </section>
+    </main>
+    <aside class="total">
+      <h1>Total</h1>
+    </aside>
+
+    <dialog onfocus=""></dialog>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  </body>
+</html>
